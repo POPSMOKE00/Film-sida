@@ -1,0 +1,93 @@
+body {
+  background: linear-gradient(green, red);
+}
+
+.heading {
+  padding-left: 44%;
+}
+
+#alt-margin-parent {
+  height: 610px;
+  margin: 0 auto;
+  width: 400px;
+  background: linear-gradient(red, white);
+
+}
+
+#alt-margin-child {
+  width: 300px;
+  margin: auto;
+  text-decoration: white;
+  text-align: center;
+
+}
+
+/**Flex*/
+
+.alt-flex-parent {
+  height: 610px;
+
+  margin: 0 auto;
+  /* why is this needed?*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(white, green);
+  width: 400px;
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+h3 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.text {
+  padding-bottom: 50%;
+}
+
+.alt-flex-child {
+  margin: auto;
+  background: red, green;
+}
+
+/*Grid*/
+
+.alt-grid-parent {
+  align-items: center;
+  display: grid;
+  grid-template-rows: 610px;
+  text-align: center;
+}
+
+.alt-grid-child {
+  height: 610px;
+  width: 400px;
+  margin: auto;
+  background: linear-gradient(green, white);
+}
+
+/*Transform*/
+
+.alt-transform-parent {
+
+  height: 100vh;
+  position: relative;
+
+}
+
+
+
+.alt-transform-child {
+  margin: 0;
+  position: absolute;
+  top: 328px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 399px;
+  height: 610px;
+  background: linear-gradient(white, red);
+  text-align: center;
+  text-justify: 20px;
+}
